@@ -8,7 +8,7 @@ import { existsSync } from "node:fs";
 
 const LOCALIZATION_DIR = join(import.meta.dir, "sts2-localization");
 const OUT_DIR = join(import.meta.dir, "localization_override/zhs");
-const OPENCC_CONFIG = "s2twp";
+const OPENCC_CONFIG = join(import.meta.dir, "opencc/s2twp-custom.json");
 
 const GAME_DATA_DIR = join(
   homedir(),
