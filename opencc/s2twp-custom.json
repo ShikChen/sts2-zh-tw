@@ -32,8 +32,11 @@
     },
     {
       "dict": {
-        "type": "ocd2",
-        "file": "TWVariants.ocd2"
+        "type": "group",
+        "dicts": [
+          { "type": "text", "file": "custom-twvar.txt" },
+          { "type": "ocd2", "file": "TWVariants.ocd2" }
+        ]
       }
     }
   ]
