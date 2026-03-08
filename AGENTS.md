@@ -2,6 +2,10 @@
 
 Instructions for AI coding agents working with this codebase.
 
+## tmp/ directory
+
+Put one-shot experiments in ./tmp/. It's ignored by git.
+
 <!-- opensrc:start -->
 
 ## Source Code Reference
