@@ -33,7 +33,10 @@ const args = parseArgs(
       .object({ command: z.literal("install") })
       .describe("Install converted files to game directory"),
     z
-      .object({ command: z.literal("check-sts1") })
+      .object({
+        command: z.literal("check-sts1"),
+        json: z.boolean().describe("Output as JSON"),
+      })
       .describe("Compare OpenCC output against STS1 official zht"),
   ]),
   { name: "bun main.ts" },
@@ -222,14 +225,19 @@ function flattenLeaves(obj: unknown, prefix: string = ""): Map<string, string> {
   return result;
 }
 
-async function checkSts1() {
+async function checkSts1(jsonOutput: boolean) {
   const zhsDir = join(STS1_DIR, "zhs");
   const zhtDir = join(STS1_DIR, "zht");
 
   const glob = new Glob("*.json");
   const files = Array.from(glob.scanSync(zhsDir)).sort();
 
-  let totalDiffs = 0;
+  const allDiffs: {
+    file: string;
+    key: string;
+    opencc: string;
+    official: string;
+  }[] = [];
 
   for (const file of files) {
     const zhsPath = join(zhsDir, file);
@@ -245,28 +253,35 @@ async function checkSts1() {
     const convertedLeaves = flattenLeaves(converted);
     const officialLeaves = flattenLeaves(official);
 
-    const diffs: { key: string; opencc: string; official: string }[] = [];
     for (const [key, officialVal] of officialLeaves) {
       const openccVal = convertedLeaves.get(key);
       if (openccVal === undefined || openccVal === officialVal) continue;
       // Skip punctuation-only differences (e.g. trailing period)
       const normalize = (s: string) => s.replace(/[。，、；：！？]/g, "");
       if (normalize(openccVal) === normalize(officialVal)) continue;
-      diffs.push({ key, opencc: openccVal, official: officialVal });
-    }
-
-    if (diffs.length > 0) {
-      console.log(`\n=== ${file} (${diffs.length} diffs) ===`);
-      for (const { key, opencc, official } of diffs) {
-        console.log(`  ${key}`);
-        console.log(`    opencc:   ${opencc}`);
-        console.log(`    official: ${official}`);
-      }
-      totalDiffs += diffs.length;
+      allDiffs.push({ file, key, opencc: openccVal, official: officialVal });
     }
   }
 
-  console.log(`\nTotal: ${totalDiffs} differences`);
+  if (jsonOutput) {
+    console.log(JSON.stringify(allDiffs, null, 2));
+    return;
+  }
+
+  let currentFile = "";
+  let fileCount = 0;
+  for (const { file, key, opencc, official } of allDiffs) {
+    if (file !== currentFile) {
+      fileCount = allDiffs.filter((d) => d.file === file).length;
+      console.log(`\n=== ${file} (${fileCount} diffs) ===`);
+      currentFile = file;
+    }
+    console.log(`  ${key}`);
+    console.log(`    opencc:   ${opencc}`);
+    console.log(`    official: ${official}`);
+  }
+
+  console.log(`\nTotal: ${allDiffs.length} differences`);
 }
 
 switch (args.command) {
@@ -280,6 +295,6 @@ switch (args.command) {
     await install();
     break;
   case "check-sts1":
-    await checkSts1();
+    await checkSts1(args.json);
     break;
 }
