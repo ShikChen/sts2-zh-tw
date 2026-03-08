@@ -168,12 +168,34 @@ async function convert() {
     `Converting ${files.length} files with opencc (${OPENCC_CONFIG})...`,
   );
 
+  const hasCJK = /\p{Script=Han}/u;
+
   for (const file of files) {
     const srcPath = join(srcDir, file);
     const outPath = join(OUT_DIR, file);
 
-    const result = await $`opencc -c ${OPENCC_CONFIG} -i ${srcPath}`.text();
-    await Bun.write(outPath, result);
+    const src = JSON.parse(await Bun.file(srcPath).text());
+    // Re-serialize to normalize unicode escapes (e.g. \u201c → actual chars)
+    // so OpenCC can match them against our custom dictionary
+    const normalized = Buffer.from(JSON.stringify(src, null, 2));
+    const converted = JSON.parse(
+      await $`opencc -c ${OPENCC_CONFIG} < ${normalized}`.text(),
+    );
+
+    // Restore values that should not be converted:
+    // - Non-CJK values (pure English text)
+    // - Credit name lists (contain English nicknames with curly quotes)
+    for (const key of Object.keys(converted)) {
+      if (typeof src[key] !== "string") continue;
+      if (
+        !hasCJK.test(src[key]) ||
+        (file === "credits.json" && key.endsWith(".names"))
+      ) {
+        converted[key] = src[key];
+      }
+    }
+
+    await Bun.write(outPath, JSON.stringify(converted, null, 2) + "\n");
 
     console.log(`  ${file}`);
   }

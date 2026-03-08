@@ -5,5 +5,5 @@
   "TO_REMOVE": "選擇[blue]{Amount}[/blue]張牌來[gold]移除[/gold]。",
   "TO_TRANSFORM": "選擇[blue]{Amount}[/blue]張牌來[gold]變化[/gold]。",
   "TO_UPGRADE": "選擇[blue]{Amount}[/blue]張牌來[gold]升級[/gold]。",
-  "VIEW_UPGRADES": "檢視升級"
+  "VIEW_UPGRADES": "查看升級"
 }

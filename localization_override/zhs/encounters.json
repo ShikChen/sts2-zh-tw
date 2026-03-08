@@ -90,7 +90,7 @@
   "MYSTERIOUS_KNIGHT_EVENT_ENCOUNTER.title": "神秘騎士",
   "MYTES_NORMAL.loss": "{character}被[gold]{encounter}[/gold]圍殺。",
   "MYTES_NORMAL.title": "一群異蟎",
-  "NEOW.results.prefix": "“[purple]在涅奧的賜福中，你選擇了[/purple][gold]{blessing}。[/gold]”",
+  "NEOW.results.prefix": "「[purple]在涅奧的賜福中，你選擇了[/purple][gold]{blessing}。[/gold]」",
   "NEOW_CHOICE.header": "[gold]涅奧選擇：[/gold]",
   "NIBBITS_NORMAL.loss": "[gold]{encounter}[/gold]打死了{character}。",
   "NIBBITS_NORMAL.title": "兩隻小啃獸",

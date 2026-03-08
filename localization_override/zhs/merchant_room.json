@@ -3,7 +3,7 @@
   "MERCHANT.cardRemovalService.title": "卡牌移除服務",
   "MERCHANT.talk.foulPotion.line1": "好哎，就是這個味道！",
   "MERCHANT.talk.foulPotion.line2": "再多來點！",
-  "MERCHANT.talk.foulPotion.line3": "啊——真是舒爽……",
+  "MERCHANT.talk.foulPotion.line3": "啊──真是舒爽……",
   "MERCHANT.talk.playerDead.line1": "我不和屍體交易。",
   "MERCHANT.talk.playerDead.line2": "沒血量，沒服務。",
   "MERCHANT.talk.purchaseFailureForbidden.line1": "看起來你買不起哦。",
@@ -14,7 +14,7 @@
   "MERCHANT.talk.purchaseFailureGold.line4": "我這兒不[jitter]賒賬[/jitter]。",
   "MERCHANT.talk.purchaseFailureSpace.line1": "你的欄位可裝不下我的藥水啊！",
   "MERCHANT.talk.purchaseFailureSpace.line2": "抱歉，看起來你已經沒空位了……",
-  "MERCHANT.talk.purchaseSuccess.line1": "請支援自己附近的小店。",
+  "MERCHANT.talk.purchaseSuccess.line1": "請支持自己附近的小店。",
   "MERCHANT.talk.purchaseSuccess.line2": "感謝惠顧。",
   "MERCHANT.talk.purchaseSuccess.line3": "買了的東西就好好享受吧。"
 }
