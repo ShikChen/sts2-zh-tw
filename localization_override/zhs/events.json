@@ -290,7 +290,7 @@
   "JUNGLE_MAZE_ADVENTURE.pages.INITIAL.options.JOIN_FORCES.title": "結伴同行",
   "JUNGLE_MAZE_ADVENTURE.pages.INITIAL.options.SOLO_QUEST.description": "獲得[blue]{SoloGold}[/blue][gold]金幣[/gold]。失去[red]{SoloHp}[/red]點生命。",
   "JUNGLE_MAZE_ADVENTURE.pages.INITIAL.options.SOLO_QUEST.title": "獨自挑戰",
-  "JUNGLE_MAZE_ADVENTURE.pages.JOIN_FORCES.description": "每個人的臉上都樂開了花，包括{IsMultiplayer:你和你的朋友們|你自己}！\n\n這群人里居然還有個吟遊詩人！\n你們邁著輕快的步伐走入迷宮，[aqua]烏賊巫師阿奎德[/aqua]手到擒來地解除了所有陷阱，你和一位[red]格拉索里安戰士[/red]則輕輕鬆鬆地解決掉了那些[orange]手持狼牙棒的守衛[/orange]。\n\n這是你這輩子最愉快的一次冒險，你也真的留下了[gold][sine]美好的回憶[/sine][/gold]。",
+  "JUNGLE_MAZE_ADVENTURE.pages.JOIN_FORCES.description": "每個人的臉上都樂開了花，包括{IsMultiplayer:你和你的朋友們|你自己}！\n\n這群人裡居然還有個吟遊詩人！\n你們邁著輕快的步伐走入迷宮，[aqua]烏賊巫師阿奎德[/aqua]手到擒來地解除了所有陷阱，你和一位[red]格拉索里安戰士[/red]則輕輕鬆鬆地解決掉了那些[orange]手持狼牙棒的守衛[/orange]。\n\n這是你這輩子最愉快的一次冒險，你也真的留下了[gold][sine]美好的回憶[/sine][/gold]。",
   "JUNGLE_MAZE_ADVENTURE.pages.SOLO_QUEST.description": "你{IsMultiplayer:和你的朋友，|}帶著幾分厭煩，無視了他們那此刻緊蹙的眉頭，徑直走了過去。其中一人甚至還[jitter][purple]對著你揮了揮拳頭[/purple][/jitter]。\n\n迷宮裡到處都透著惡意。你掉進過地刺陷阱，被帶刺的巨型滾木迎頭擊中，還得一路上和那些[orange]揮舞著狼牙棒的暴躁生物[/orange]纏鬥。\n\n你簡直受夠了這些帶刺的玩意，甚至開始考慮下次冒險是不是得向團隊協作低頭了。",
   "JUNGLE_MAZE_ADVENTURE.title": "叢林迷宮奇遇",
   "LOST_WISP.pages.CLAIM.description": "你小心翼翼地靠近[orange]鬼火[/orange]…\n你離得越近，它對你的反應就越強烈。\n\n在伸手可及的地方，你緊握住了這團[orange]鬼火[/orange]，但它同時也[red][jitter]噴出一股熾熱的蒸汽和火焰，將你灼傷！[/jitter][/red]\n\n儘管如此，你還是在一番[jitter]手忙腳亂的纏鬥[/jitter]中將其制服。最終，這團[orange]鬼火[/orange]選擇了屈服，並認你為它的新主人。",

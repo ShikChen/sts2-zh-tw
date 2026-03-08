@@ -39,7 +39,7 @@
   "DARV_EPOCH.unlock": "解鎖先古之民：囤積者[purple]達弗[/purple]，會在你未來的遊戲中出現……",
   "DARV_EPOCH.unlockInfo": "{IsRevealed:已經遇到|遇見}其他所有[gold]先古之民[/gold]{IsRevealed:|來揭示這個歷史節點}。",
   "DARV_EPOCH.unlockText": "解鎖先古之民：[purple]達弗[/purple].",
-  "DEFECT1_EPOCH.description": "[blue]故障機器人[/blue]重啟完成！\n但卻發現自己身處於大量[orange]熔化金屬[/orange]、[sine][red]灰燼[/red][/sine]和[jitter][green]數千只蟲子屍體[/green][/jitter]之間！？\n資料日誌：[red]<已損壞>[/red].\n\n它的核心幾乎就要散架、四肢也只能勉強動彈。[blue]故障機器人[/blue]從其他構裝體那裡拆卸回收了不少損壞的金屬板與零件，將自己修補了一番。",
+  "DEFECT1_EPOCH.description": "[blue]故障機器人[/blue]重啟完成！\n但卻發現自己身處於大量[orange]熔化金屬[/orange]、[sine][red]灰燼[/red][/sine]和[jitter][green]數千隻蟲子屍體[/green][/jitter]之間！？\n資料日誌：[red]<已損壞>[/red].\n\n它的核心幾乎就要散架、四肢也只能勉強動彈。[blue]故障機器人[/blue]從其他構裝體那裡拆卸回收了不少損壞的金屬板與零件，將自己修補了一番。",
   "DEFECT1_EPOCH.title": "啟動",
   "DEFECT1_EPOCH.unlock": "[blue]故障機器人[/blue]已經<準備就緒>！",
   "DEFECT1_EPOCH.unlockInfo": "{IsRevealed:已經用|用}[pink]亡靈契約師[/pink]進行一局遊戲{IsRevealed:|來揭示這個歷史節點}。",
