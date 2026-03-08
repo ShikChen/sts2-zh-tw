@@ -1,0 +1,11 @@
+{
+  "ANCIENT": "[gold][font_size=28][b]先古：[/b][/font_size][/gold]先古之民賜予的遺物。",
+  "ANCIENT_SUBCATEGORY": "[blue][font_size=28][b]{Ancient}：[/b][/font_size][/blue]",
+  "COMMON": "[gold][font_size=28][b]普通：[/b][/font_size][/gold]隨處可見的弱小遺物。",
+  "EVENT": "[gold][font_size=28][b]事件：[/b][/font_size][/gold]只能透過事件獲得的遺物。",
+  "RARE": "[gold][font_size=28][b]稀有：[/b][/font_size][/gold]獨特而強大的遺物，十分少見。",
+  "SHOP": "[gold][font_size=28][b]商店：[/b][/font_size][/gold]只能從商人處購買得到的遺物。",
+  "STARTER": "[gold][font_size=28][b]初始：[/b][/font_size][/gold]角色們開始遊戲時自身攜帶的遺物。",
+  "UNCOMMON": "[gold][font_size=28][b]罕見：[/b][/font_size][/gold]比常見遺物要罕見一些的較為強大的遺物。",
+  "UNKNOWN_ANCIENT": "？？？"
+}

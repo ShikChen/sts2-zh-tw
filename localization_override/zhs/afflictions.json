@@ -1,0 +1,21 @@
+{
+  "BOUND.description": "每回合只能打出[blue]1[/blue]張[gold]魂縛[/gold]卡牌。卡牌會在回合結束時失去[gold]魂縛[/gold]。",
+  "BOUND.extraCardText": "魂縛",
+  "BOUND.title": "魂縛",
+  "ENTANGLED.description": "{Amount:energyIcons()}費用增加1。",
+  "ENTANGLED.extraCardText": "纏身",
+  "ENTANGLED.title": "纏身",
+  "GALVANIZED.description": "打出這張牌時受到[blue]{Amount}[/blue]點傷害。",
+  "GALVANIZED.extraCardText": "受到{Amount}點傷害。",
+  "GALVANIZED.title": "流電",
+  "HEXED.description": "這張牌獲得[gold]虛無[/gold]。",
+  "HEXED.title": "邪咒",
+  "MOCK_NO_UNPLAYABLE_AFFLICTION.title": "臨時不可打出苦痛",
+  "MOCK_SELF_DAMAGE_AFFLICTION.title": "臨時自傷苦痛",
+  "MOCK_USELESS_AFFLICTION.title": "臨時無用苦痛",
+  "RINGING.description": "你在本回合只能打出[blue]1[/blue]張牌。",
+  "RINGING.extraCardText": "昏眩。",
+  "RINGING.title": "昏眩",
+  "SMOG.description": "你在本回合無法再打出更多[gold]技能[/gold]牌。回合結束時消除。",
+  "SMOG.title": "煙霧"
+}
