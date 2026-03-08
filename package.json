@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "format": "prettier --write --list-different ."
+  },
   "devDependencies": {
     "@types/bun": "latest",
-    "opensrc": "^0.6.0"
+    "opensrc": "^0.6.0",
+    "prettier": "^3.8.1"
   },
   "dependencies": {
     "zod": "^4.3.6",
