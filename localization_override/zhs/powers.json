@@ -518,7 +518,7 @@
   "RAMPART_POWER.title": "盾牆",
   "RAVENOUS_POWER.description": "當有敵人死亡時，噬屍蛞蝓會立即吃下屍體，在本回合被[gold]擊暈[/gold]然後獲得[blue]1[/blue]點[gold]力量[/gold]。",
   "RAVENOUS_POWER.smartDescription": "當有敵人死亡時，噬屍蛞蝓會立即吃下屍體，在本回合被[gold]擊暈[/gold]然後獲得[blue]{Amount}[/blue]點[gold]力量[/gold]。",
-  "RAVENOUS_POWER.title": "饑餓",
+  "RAVENOUS_POWER.title": "飢餓",
   "READ_THE_BONES_POWER.description": "每當你[gold]召喚[/gold]時，抽1張牌。",
   "READ_THE_BONES_POWER.smartDescription": "每當你[gold]召喚[/gold]時，抽[blue]{Amount}[/blue]張牌。",
   "READ_THE_BONES_POWER.title": "識骨知數",

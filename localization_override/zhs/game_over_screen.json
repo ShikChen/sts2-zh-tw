@@ -3,7 +3,7 @@
   "BADGE.damageDealt": "造成傷害：{DamageAmount}",
   "BADGE.damageReceived": "受到傷害：{DamageAmount}",
   "BADGE.elitesKilled": "擊殺精英：{EliteCount}",
-  "BADGE.famished": "極度饑餓：{HpDiff}",
+  "BADGE.famished": "極度飢餓：{HpDiff}",
   "BADGE.floorsClimbed": "攀爬樓層：{FloorCount}",
   "BADGE.glutton": "暴食：{HpDiff}",
   "BADGE.goldGained": "獲得金幣：{GoldAmount}",
