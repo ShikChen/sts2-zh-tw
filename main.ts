@@ -32,6 +32,9 @@ const args = parseArgs(
     z
       .object({ command: z.literal("install") })
       .describe("Install converted files to game directory"),
+    z
+      .object({ command: z.literal("check-sts1") })
+      .describe("Compare OpenCC output against STS1 official zht"),
   ]),
   { name: "bun main.ts" },
 );
@@ -196,6 +199,74 @@ async function install() {
   console.log(`Installed ${files.length} files to ${destDir}`);
 }
 
+const STS1_DIR = join(import.meta.dir, "sts1-localization");
+
+function flattenLeaves(obj: unknown, prefix: string = ""): Map<string, string> {
+  const result = new Map<string, string>();
+  if (typeof obj === "string") {
+    result.set(prefix, obj);
+  } else if (Array.isArray(obj)) {
+    for (let i = 0; i < obj.length; i++) {
+      for (const [k, v] of flattenLeaves(obj[i], `${prefix}[${i}]`)) {
+        result.set(k, v);
+      }
+    }
+  } else if (obj && typeof obj === "object") {
+    for (const [key, val] of Object.entries(obj)) {
+      const path = prefix ? `${prefix}.${key}` : key;
+      for (const [k, v] of flattenLeaves(val, path)) {
+        result.set(k, v);
+      }
+    }
+  }
+  return result;
+}
+
+async function checkSts1() {
+  const zhsDir = join(STS1_DIR, "zhs");
+  const zhtDir = join(STS1_DIR, "zht");
+
+  const glob = new Glob("*.json");
+  const files = Array.from(glob.scanSync(zhsDir)).sort();
+
+  let totalDiffs = 0;
+
+  for (const file of files) {
+    const zhsPath = join(zhsDir, file);
+    const zhtPath = join(zhtDir, file);
+
+    if (!existsSync(zhtPath)) continue;
+
+    const converted = JSON.parse(
+      await $`opencc -c ${OPENCC_CONFIG} -i ${zhsPath}`.text(),
+    );
+    const official = JSON.parse(await Bun.file(zhtPath).text());
+
+    const convertedLeaves = flattenLeaves(converted);
+    const officialLeaves = flattenLeaves(official);
+
+    const diffs: { key: string; opencc: string; official: string }[] = [];
+    for (const [key, officialVal] of officialLeaves) {
+      const openccVal = convertedLeaves.get(key);
+      if (openccVal !== undefined && openccVal !== officialVal) {
+        diffs.push({ key, opencc: openccVal, official: officialVal });
+      }
+    }
+
+    if (diffs.length > 0) {
+      console.log(`\n=== ${file} (${diffs.length} diffs) ===`);
+      for (const { key, opencc, official } of diffs) {
+        console.log(`  ${key}`);
+        console.log(`    opencc:   ${opencc}`);
+        console.log(`    official: ${official}`);
+      }
+      totalDiffs += diffs.length;
+    }
+  }
+
+  console.log(`\nTotal: ${totalDiffs} differences`);
+}
+
 switch (args.command) {
   case "extract":
     await extract();
@@ -205,5 +276,8 @@ switch (args.command) {
     break;
   case "install":
     await install();
+    break;
+  case "check-sts1":
+    await checkSts1();
     break;
 }
