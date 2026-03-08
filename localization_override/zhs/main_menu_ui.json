@@ -117,7 +117,7 @@
   "MULTIPLAYER_LOAD_MENU.FLOOR": "樓層：{floor}",
   "MULTIPLAYER_LOAD_MENU.OTHERS": "與其他{others}名玩家：",
   "MULTIPLAYER_WARNING_POPUP.back": "返回",
-  "MULTIPLAYER_WARNING_POPUP.body": "我們強烈推薦你先嚐試單人模式熟悉一下游戲的基礎並解鎖一些道具\n\n我們提醒過你了嗷！",
+  "MULTIPLAYER_WARNING_POPUP.body": "我們強烈推薦你先嘗試單人模式熟悉一下游戲的基礎並解鎖一些道具\n\n我們提醒過你了嗷！",
   "MULTIPLAYER_WARNING_POPUP.ignore": "無視並繼續",
   "MULTIPLAYER_WARNING_POPUP.title": "檢測到第一局遊戲！",
   "NETWORK_ERROR.FAILED_TO_HOST.body": "建立遊戲失敗。請檢查你的網路連線。\n\n詳情見：{info}",
