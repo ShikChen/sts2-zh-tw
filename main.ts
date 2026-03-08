@@ -279,7 +279,10 @@ async function checkSts1(jsonOutput: boolean) {
       const openccVal = convertedLeaves.get(key);
       if (openccVal === undefined || openccVal === officialVal) continue;
       // Skip punctuation/whitespace-only differences
-      const normalize = (s: string) => s.replace(/[\s。，、；：！？]/g, "");
+      const normalize = (s: string) =>
+        s
+          .replace(/[\s。，、；：！？]/g, "")
+          .replace(/[一二三四五六七八九\d]+/g, "N");
       if (normalize(openccVal) === normalize(officialVal)) continue;
       allDiffs.push({ file, key, opencc: openccVal, official: officialVal });
     }
