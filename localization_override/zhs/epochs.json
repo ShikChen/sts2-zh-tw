@@ -100,7 +100,7 @@
   "IRONCLAD4_EPOCH.unlockInfo": "以[red]鐵衛士[/red]通關[blue]第三[/blue][gold]階段[/gold]{IsRevealed:|來揭示這個歷史節點}。",
   "IRONCLAD4_EPOCH.unlockText": "為[red]鐵衛士[/red]解鎖[red]進階難度[/red]。同時解鎖[gold]{Potion1}[/gold]、[gold]{Potion2}[/gold]和[gold]{Potion3}[/gold]。",
   "IRONCLAD5_EPOCH.description": "[red]鐵衛士[/red]斬殺了力量處於全盛的[purple]心臟[/purple]……惡魔的契約飢渴地將[purple]荒疫[/purple]吸收到了自己身上。\n\n一瞬間，戰士與[purple]荒疫[/purple]都被火焰點燃。寄生蟲被吸引到了火光之中，掙扎扭曲著，如同蠟滴墜入火焰般被吞噬殆盡。",
-  "IRONCLAD5_EPOCH.title": "火光沖天",
+  "IRONCLAD5_EPOCH.title": "火光衝天",
   "IRONCLAD5_EPOCH.unlockInfo": "{IsRevealed:已經|}以[red]鐵衛士[/red]擊殺[blue]15[/blue]個[purple]精英[/purple]{IsRevealed:|來揭示這個歷史節點}。",
   "IRONCLAD6_EPOCH.description": "傳聞說，[gold]高塔[/gold]頂端有著永不停息的火焰，高傲地燃燒著。這並非妄言，因為即使在最寒冷的冬夜，那裡附近的雲層依舊會被照亮、映照出淡淡的紫羅蘭色，證實著傳聞的真實性。\n\n然後有一天，雲層恢復了正常。\n[purple]火焰[/purple]熄滅了。",
   "IRONCLAD6_EPOCH.title": "熄滅",
