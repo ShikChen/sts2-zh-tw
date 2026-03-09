@@ -9,6 +9,17 @@ import { existsSync } from "node:fs";
 const LOCALIZATION_DIR = join(import.meta.dir, "sts2-localization");
 const OUT_DIR = join(import.meta.dir, "localization_override/zhs");
 const OPENCC_CONFIG = join(import.meta.dir, "opencc/s2twp-custom.json");
+const EXTRA_KEYS_PATH = join(import.meta.dir, "extra.json");
+
+const ExtraKeys = z
+  .record(
+    z.string().describe("JSON filename (e.g. relics.json)"),
+    z.record(
+      z.string().describe("Localization key"),
+      z.string().describe("Traditional Chinese translation"),
+    ),
+  )
+  .describe("Extra translations for keys missing from upstream zhs");
 
 const GAME_DATA_DIR = join(
   homedir(),
@@ -170,6 +181,10 @@ async function convert() {
 
   const hasCJK = /\p{Script=Han}/u;
 
+  const extra = existsSync(EXTRA_KEYS_PATH)
+    ? ExtraKeys.parse(await Bun.file(EXTRA_KEYS_PATH).json())
+    : {};
+
   for (const file of files) {
     const srcPath = join(srcDir, file);
     const outPath = join(OUT_DIR, file);
@@ -223,9 +238,23 @@ async function convert() {
       converted["ENCOUNTER_QUOTE_RIGHT"] = "」";
     }
 
-    await Bun.write(outPath, JSON.stringify(converted, null, 2) + "\n");
+    // Merge extra translations for keys missing from upstream
+    if (extra[file]) {
+      for (const [key, value] of Object.entries(extra[file])) {
+        if (Object.hasOwn(converted, key)) {
+          console.error(
+            `  extra.json: ${file} key "${key}" already exists, skipping`,
+          );
+          continue;
+        }
+        converted[key] = value;
+      }
+    }
 
-    console.log(`  ${file}`);
+    const sorted = Object.fromEntries(
+      Object.entries(converted).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)),
+    );
+    await Bun.write(outPath, JSON.stringify(sorted, null, 2) + "\n");
   }
 
   console.log(`Done. Output: ${OUT_DIR}`);

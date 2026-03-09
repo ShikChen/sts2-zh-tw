@@ -1,0 +1,6 @@
+{
+  "relics.json": {
+    "EMPTY_CAGE.description": "拾起時，從你的[gold]牌組[/gold]中移除[blue]{Cards}[/blue]張牌。",
+    "NINJA_SCROLL.description": "每場戰鬥開始時，將[blue]{Shivs}[/blue]張[gold]小刀[/gold]加入你的[gold]手牌[/gold]。"
+  }
+}
