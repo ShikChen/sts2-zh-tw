@@ -593,7 +593,7 @@
   "TINKER_TIME.pages.CHOOSE_CARD_TYPE.options.SKILL.description": "製作一張技能牌。",
   "TINKER_TIME.pages.CHOOSE_CARD_TYPE.options.SKILL.title": "護具",
   "TINKER_TIME.pages.CHOOSE_RIDER.description": "「很棒的選擇！那麼，它應該發揮什麼[sine]作用[/sine]呢？」\n[orange]科學家[/orange]開心地搓起了她的雙手。",
-  "TINKER_TIME.pages.CHOOSE_RIDER.options.CHAOS.description": "將一張隨機牌放入你的[gold]手牌[/gold]。這張牌在本回合這張牌在本回合耗能變為[blue]0[/blue]{energyPrefix:energyIcons(1)}。",
+  "TINKER_TIME.pages.CHOOSE_RIDER.options.CHAOS.description": "將一張隨機牌放入你的[gold]手牌[/gold]。這張牌在本回合耗能變為[blue]0[/blue]{energyPrefix:energyIcons(1)}。",
   "TINKER_TIME.pages.CHOOSE_RIDER.options.CHAOS.title": "混沌",
   "TINKER_TIME.pages.CHOOSE_RIDER.options.CHOKING.description": "本回合，你每打出一張牌，該敵人失去[blue]{ChokingDamage}[/blue]點生命。",
   "TINKER_TIME.pages.CHOOSE_RIDER.options.CHOKING.title": "扼殺",

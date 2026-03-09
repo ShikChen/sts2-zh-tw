@@ -143,7 +143,7 @@
   "NETWORK_ERROR.report_bug": "反饋Bug",
   "OPEN_PROFILE_SCREEN.description": "點擊編輯",
   "OPEN_PROFILE_SCREEN.title": "存檔{Id}",
-  "POTION_LAB_COLLECTION.locked.description": "必須要在時間線中解鎖這這瓶藥水，才能讓它在攀爬途中顯現。",
+  "POTION_LAB_COLLECTION.locked.description": "必須要在時間線中解鎖這瓶藥水，才能讓它在攀爬途中顯現。",
   "POTION_LAB_COLLECTION.locked.title": "鎖定",
   "POTION_LAB_COLLECTION.unknown.description": "你還沒有見過這瓶藥水。",
   "POTION_LAB_COLLECTION.unknown.title": "未知",

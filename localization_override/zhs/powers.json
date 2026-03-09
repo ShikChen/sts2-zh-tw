@@ -514,7 +514,7 @@
   "RAGE_POWER.smartDescription": "本回合，你每打出一張攻擊牌就獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
   "RAGE_POWER.title": "狂怒",
   "RAMPART_POWER.description": "在玩家回合開始時，高塔炮手獲得[blue]25[/blue]點[gold]格擋[/gold]。",
-  "RAMPART_POWER.smartDescription": "在玩家回合開始時，高塔炮手獲得獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
+  "RAMPART_POWER.smartDescription": "在玩家回合開始時，高塔炮手獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
   "RAMPART_POWER.title": "盾牆",
   "RAVENOUS_POWER.description": "當有敵人死亡時，噬屍蛞蝓會立即吃下屍體，在本回合被[gold]擊暈[/gold]然後獲得[blue]1[/blue]點[gold]力量[/gold]。",
   "RAVENOUS_POWER.smartDescription": "當有敵人死亡時，噬屍蛞蝓會立即吃下屍體，在本回合被[gold]擊暈[/gold]然後獲得[blue]{Amount}[/blue]點[gold]力量[/gold]。",

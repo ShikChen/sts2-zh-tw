@@ -832,7 +832,7 @@
   "QUASAR.title": "類星體",
   "QUICK_SLASH.description": "造成{Damage:diff()}點傷害。\n抽1張牌。",
   "QUICK_SLASH.title": "快斬",
-  "RADIATE.description": "你在本回合每獲得一點{Stars:starIcons()}，則此牌就所有敵人造成{Damage:diff()}點傷害一次。{InCombat:\n（命中{CalculatedHits:diff()}次）|}",
+  "RADIATE.description": "你在本回合每獲得一點{Stars:starIcons()}，則此牌就對所有敵人造成{Damage:diff()}點傷害一次。{InCombat:\n（命中{CalculatedHits:diff()}次）|}",
   "RADIATE.title": "輻射",
   "RAGE.description": "打出此牌後，你在這個回合內每打出一張攻擊牌，獲得{Power:diff()}點[gold]格擋[/gold]。",
   "RAGE.title": "狂怒",

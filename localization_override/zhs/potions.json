@@ -16,7 +16,7 @@
   "BONE_BREW.title": "骨頭釀",
   "BOTTLED_POTENTIAL.description": "將你的所有牌洗入你的[gold]抽牌堆[/gold]。抽[blue]{Cards}[/blue]張牌。",
   "BOTTLED_POTENTIAL.title": "瓶裝潛能",
-  "CLARITY.description": "抽[blue]{Cards}[/blue]張牌。在你的下[blue]{ClarityPower}[/blue]個回合開始時，額外[blue]1[/blue]張牌。",
+  "CLARITY.description": "抽[blue]{Cards}[/blue]張牌。在你的下[blue]{ClarityPower}[/blue]個回合開始時，額外抽[blue]1[/blue]張牌。",
   "CLARITY.title": "明晰提取物",
   "COLORLESS_POTION.description": "從[blue]3[/blue]張隨機無色牌中選擇[blue]1[/blue]張加入你的[gold]手牌[/gold]。這張牌在本回合可以免費打出。",
   "COLORLESS_POTION.title": "無色藥水",

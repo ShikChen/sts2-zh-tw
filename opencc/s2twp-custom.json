@@ -5,6 +5,7 @@
     "dict": {
       "type": "group",
       "dicts": [
+        { "type": "text", "file": "custom-fixes.txt" },
         { "type": "text", "file": "custom-st.txt" },
         { "type": "ocd2", "file": "STPhrases.ocd2" }
       ]
@@ -15,6 +16,7 @@
       "dict": {
         "type": "group",
         "dicts": [
+          { "type": "text", "file": "custom-fixes.txt" },
           { "type": "text", "file": "custom-st.txt" },
           { "type": "ocd2", "file": "STPhrases.ocd2" },
           { "type": "ocd2", "file": "STCharacters.ocd2" }
