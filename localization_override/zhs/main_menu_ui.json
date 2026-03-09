@@ -139,7 +139,7 @@
   "NETWORK_ERROR.TRY_AGAIN_LATER.body": "嘗試次數過多。請稍等一會後再嘗試。",
   "NETWORK_ERROR.UNKNOWN_ERROR.body": "發生了一個未知錯誤。\n\n詳情見：{info}",
   "NETWORK_ERROR.VERSION_MISMATCH.body": "你試圖加入的遊戲與您的殺戮尖塔2的版本不同。",
-  "NETWORK_ERROR.header": "斷開連線",
+  "NETWORK_ERROR.header": "中斷連線",
   "NETWORK_ERROR.report_bug": "反饋Bug",
   "OPEN_PROFILE_SCREEN.description": "點擊編輯",
   "OPEN_PROFILE_SCREEN.title": "存檔{Id}",

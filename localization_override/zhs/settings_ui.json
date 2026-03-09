@@ -18,7 +18,7 @@
   "CREDITS": "查看製作名單",
   "CREDITS_BUTTON_LABEL": "製作名單",
   "DATA": "資料",
-  "DISCONNECT": "斷開連線",
+  "DISCONNECT": "中斷連線",
   "DISCONNECT_CONFIRMATION.body": "您的好友將無法繼續遊玩本局遊戲，且您無法重連。\n\n若房主重新載入存檔，您可以繼續本局遊戲。",
   "DISCONNECT_CONFIRMATION.header": "你確定嗎？",
   "DISPLAY": "顯示",
