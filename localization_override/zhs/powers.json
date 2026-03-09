@@ -128,7 +128,7 @@
   "CRIMSON_MANTLE_POWER.description": "在你的回合開始時，失去生命並獲得[gold]格擋[/gold]。",
   "CRIMSON_MANTLE_POWER.smartDescription": "在你的回合開始時，失去[blue]{SelfDamage}[/blue]點生命並獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
   "CRIMSON_MANTLE_POWER.title": "緋紅披風",
-  "CRUELTY_POWER.description": "以上敵人受到額外傷害。",
+  "CRUELTY_POWER.description": "易傷的敵人受到額外傷害。",
   "CRUELTY_POWER.smartDescription": "[gold]易傷[/gold]的敵人受到[blue]{Amount}%[/blue]額外傷害。",
   "CRUELTY_POWER.title": "殘酷",
   "CURIOUS_POWER.description": "能力牌的耗能減少[blue]1[/blue]{energyPrefix:energyIcons(1)}。",

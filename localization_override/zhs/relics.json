@@ -682,7 +682,7 @@
   "RAZOR_TOOTH.description": "你打出攻擊牌和技能牌時，將其在本場戰鬥內[gold]升級[/gold]。",
   "RAZOR_TOOTH.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "RAZOR_TOOTH.title": "剃刀牙",
-  "RED_MASK.description": "在每場戰鬥開始時，給於所有敵人[blue]{WeakPower}[/blue]層[gold]虛弱[/gold]。",
+  "RED_MASK.description": "在每場戰鬥開始時，給予所有敵人[blue]{WeakPower}[/blue]層[gold]虛弱[/gold]。",
   "RED_MASK.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "RED_MASK.title": "紅面具",
   "RED_SKULL.description": "當你的生命值低於或等於[blue]{HpThreshold}%[/blue]時，你額外獲得[blue]{StrengthPower}[/blue]點[gold]力量[/gold]",
