@@ -182,17 +182,23 @@ async function convert() {
       await $`opencc -c ${OPENCC_CONFIG} < ${normalized}`.text(),
     );
 
-    // Restore values that should not be converted:
-    // - Non-CJK values (pure English text)
-    // - Credit name lists (contain English nicknames with curly quotes)
     for (const key of Object.keys(converted)) {
       if (typeof src[key] !== "string") continue;
+      // Restore values that should not be converted:
+      // - Non-CJK values (pure English text)
+      // - Credit name lists (contain English nicknames with curly quotes)
       if (
         !hasCJK.test(src[key]) ||
         (file === "credits.json" && key.endsWith(".names"))
       ) {
         converted[key] = src[key];
+        continue;
       }
+      // Fix ASCII commas used in CJK context (upstream typo)
+      converted[key] = converted[key].replace(
+        /(?<=\p{Script=Han}),([ \n])|,([ \n])(?=\p{Script=Han})/gu,
+        (_, s1, s2) => ((s1 ?? s2) === "\n" ? "，\n" : "，"),
+      );
     }
 
     await Bun.write(outPath, JSON.stringify(converted, null, 2) + "\n");
