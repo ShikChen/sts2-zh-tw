@@ -2,7 +2,7 @@
   "ADROIT.description": "獲得[blue]{Block:diff()}[/blue]點[gold]格擋[/gold]。",
   "ADROIT.extraCardText": "獲得{Block:diff()}點[gold]格擋[/gold]。",
   "ADROIT.title": "伶俐",
-  "CLONE.description": "這張牌能在[gold]休息處[/gold]被複制。",
+  "CLONE.description": "這張牌能在[gold]休息處[/gold]被複製。",
   "CLONE.title": "克隆",
   "CORRUPTED.description": "造成的傷害增加[blue]50%[/blue]，但會失去[blue]2[/blue]生命。",
   "CORRUPTED.dialogue": "力量……",

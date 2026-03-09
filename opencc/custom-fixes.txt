@@ -26,3 +26,8 @@
 在你的回合结束时，这张牌在你的	若在你的回合結束時，這張牌在你的
 Reach In	探入
 Add [red]Writhe[/red]到你的[gold]牌组[/gold]	將一張[red]苦惱[/red]加入你的[gold]牌組[/gold]
+攻击牌伤害增加造成[blue]{Amount}[/blue]。	攻擊牌傷害增加[blue]{Amount}[/blue]點。
+被打出第一张	被打出的第一張
+随机[blue]1[/blue]牌[gold]升级[/gold]	隨機[blue]1[/blue]張牌[gold]升級[/gold]
+一层楼层	一層樓
+一张卡放到	一張牌放到
