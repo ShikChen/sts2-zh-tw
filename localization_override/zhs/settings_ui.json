@@ -1,7 +1,7 @@
 {
   "ABANDON_RUN": "放棄這局遊戲",
   "AMBIENCE_VOLUME": "環境音音量",
-  "ANTI_ALIASING": "抗鋸齒",
+  "ANTI_ALIASING": "反鋸齒",
   "ANTI_ALIASING_CHOICES": "{0:choose(None|FXAA|SMAALow|SMAAMed|SMAAHigh):無|FXAA|SMAA低|SMAA中|SMAA高|無}",
   "ASPECT_RATIO": "畫面寬高比",
   "ASPECT_RATIO_AUTO": "自動",
@@ -104,7 +104,7 @@
   "MOD_SETTINGS": "MOD_SETTINGS",
   "MSAA": "MSAA",
   "MSAA_DESCRIPTION": "一種能讓旋轉後的影像邊緣不再顯得參差不齊的高階技術。\n[blue]注意：開啟 8x 取樣時效能消耗很高。[/blue]",
-  "MSAA_HEADER": "多重取樣抗鋸齒（MSAA）",
+  "MSAA_HEADER": "多重取樣反鋸齒（MSAA）",
   "MSAA_NONE": "關閉",
   "MUSIC_VOLUME": "音樂音量",
   "RESET_CONFIRMATION.header": "重置設定",

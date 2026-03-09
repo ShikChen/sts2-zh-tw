@@ -440,7 +440,7 @@
   "LETTER_OPENER.description": "你每在同一回合內打出[blue]{Cards}[/blue]張技能牌，就對所有敵人造成[blue]{Damage}[/blue]點傷害。",
   "LETTER_OPENER.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "LETTER_OPENER.title": "開信刀",
-  "LIZARD_TAIL.description": "當你要被殺死時，免死並回復到最大生命值的[green]{Heal}%[/green]（僅能起效一次）。",
+  "LIZARD_TAIL.description": "當你要被殺死時，免死並回復到最大生命值的[green]{Heal}%[/green]（僅能生效一次）。",
   "LIZARD_TAIL.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "LIZARD_TAIL.title": "蜥蜴尾巴",
   "LOOMING_FRUIT.description": "拾起時，將你的最大生命值提升[blue]{MaxHp}[/blue]。",
