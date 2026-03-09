@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "format": "prettier --write --list-different ."
+    "format": "prettier --write --list-different .",
+    "typecheck": "tsgo --noEmit"
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "@typescript/native-preview": "^7.0.0-dev.20260309.1",
     "opensrc": "^0.6.0",
     "prettier": "^3.8.1"
   },
