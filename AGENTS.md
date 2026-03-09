@@ -2,6 +2,12 @@
 
 Instructions for AI coding agents working with this codebase.
 
+CLAUDE.md is a symlink to this file.
+
+## Formatting
+
+Run `bun run format` to format code with prettier.
+
 ## tmp/ directory
 
 Put one-shot experiments in ./tmp/. It's ignored by git.
