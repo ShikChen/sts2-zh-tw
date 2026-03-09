@@ -8,6 +8,17 @@ CLAUDE.md is a symlink to this file.
 
 Run `bun run format` to format code with prettier.
 
+## CLI (`main.ts`)
+
+Run with `bun main.ts <command>`. Available commands:
+
+- `extract` — Extract localization files from game PCK
+- `convert` — Convert zhs to zh-tw using OpenCC with custom dictionaries
+- `install` — Copy converted files to game override directory
+- `check-sts1` — Compare OpenCC output against STS1 official zht
+
+Run `bun main.ts --help` for details.
+
 ## tmp/ directory
 
 Put one-shot experiments in ./tmp/. It's ignored by git.
