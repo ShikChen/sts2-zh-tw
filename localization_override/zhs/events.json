@@ -450,7 +450,7 @@
   "SLIPPERY_BRIDGE.pages.HOLD_ON_LOOP.description": "開發者在此告知：對於堅持了這麼久的玩家，這裡已經沒有額外的文字內容了。若有不便，我們對此深表歉意。",
   "SLIPPERY_BRIDGE.pages.HOLD_ON_LOOP.options.HOLD_ON_LOOP.description": "失去[red]{HpLoss}[/red]點生命。重新隨機上方選項中的卡牌。",
   "SLIPPERY_BRIDGE.pages.HOLD_ON_LOOP.options.HOLD_ON_LOOP.title": "再撐一會",
-  "SLIPPERY_BRIDGE.pages.INITIAL.description": "當你穿過一座搖搖欲墜的木橋時，忽然間[blue][jitter]暴雨傾盆[/jitter][/blue]。[purple][sine]陣陣狂風[/sine][/purple]不斷向你襲來，似乎要將你的旅程終結與此。",
+  "SLIPPERY_BRIDGE.pages.INITIAL.description": "當你穿過一座搖搖欲墜的木橋時，忽然間[blue][jitter]暴雨傾盆[/jitter][/blue]。[purple][sine]陣陣狂風[/sine][/purple]不斷向你襲來，似乎要將你的旅程終結於此。",
   "SLIPPERY_BRIDGE.pages.INITIAL.options.HOLD_ON_0.description": "失去[red]{HpLoss}[/red]點生命。重新隨機上方選項中的卡牌。",
   "SLIPPERY_BRIDGE.pages.INITIAL.options.HOLD_ON_0.title": "再撐一會",
   "SLIPPERY_BRIDGE.pages.INITIAL.options.OVERCOME.description": "[red]{RandomCard}[/red]將從你的[gold]牌組[/gold]中被移除。",

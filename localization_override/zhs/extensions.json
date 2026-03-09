@@ -7,7 +7,7 @@
   "EXTENSION.card.humanizedCardTypes.status": "狀態",
   "EXTENSION.config.activate": "請使用本畫面右下角的「啟用」按鈕來啟用擴充套件。",
   "EXTENSION.config.categoryWarning": "請確保您的Twitch分類是「Slay the Spire 2」，否則觀眾們看不見擴充套件！",
-  "EXTENSION.config.inGameConnect": "請進入您在遊戲內的設定選單，盡心連線並更改整合功能的設定。",
+  "EXTENSION.config.inGameConnect": "請進入您在遊戲內的設定選單，進行連線並更改整合功能的設定。",
   "EXTENSION.config.title": "Slay the Spire 2夥伴",
   "EXTENSION.piles.clickHint.deck": "點擊查看牌組",
   "EXTENSION.piles.clickHint.discardPile": "點擊查看棄牌堆",

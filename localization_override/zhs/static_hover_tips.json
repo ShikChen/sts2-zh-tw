@@ -37,7 +37,7 @@
   "FORGE.title": "鑄造",
   "HIT_POINTS.description": "當你耗盡生命時，你就會死亡。",
   "HIT_POINTS.title": "生命值（HP）",
-  "LINKED_REWARDS.description": "同組重你只能選擇[blue]1[/blue]項獎勵。",
+  "LINKED_REWARDS.description": "同組中你只能選擇[blue]1[/blue]項獎勵。",
   "LINKED_REWARDS.title": "相連獎勵",
   "MAP.description": "檢視當前階段的地圖。",
   "MAP.title": "地圖（M）",
