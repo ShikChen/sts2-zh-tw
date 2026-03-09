@@ -744,7 +744,7 @@
   "OUTBREAK.description": "每當你給予{Repeat:diff()}次[gold]中毒[/gold]，就對所有敵人造成{OutbreakPower:diff()}點傷害。",
   "OUTBREAK.title": "毒性爆發",
   "OUTMANEUVER.description": "在下個回合獲得{Energy:energyIcons()}。",
-  "OUTMANEUVER.title": "搶佔先機",
+  "OUTMANEUVER.title": "搶占先機",
   "OVERCLOCK.description": "抽{Cards:diff()}張牌。\n將一張[gold]灼傷[/gold]加入你的[gold]棄牌堆[/gold]。",
   "OVERCLOCK.title": "超頻",
   "PACTS_END.description": "只有在你的[gold]消耗牌堆[/gold]擁有大於等於{Cards:diff()}張牌的時候才能被打出。\n對所有敵人造成{Damage:diff()}點傷害。",
