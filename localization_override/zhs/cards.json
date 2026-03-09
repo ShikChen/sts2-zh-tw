@@ -1208,7 +1208,7 @@
   "WISP.description": "獲得{Energy:energyIcons()}。",
   "WISP.title": "鬼火",
   "WOUND.title": "傷口",
-  "WRAITH_FORM.description": "獲得{IntangiblePower:diff()}[gold]無實體[/gold]。\n在你的回合開始時，失去{WraithFormPower:diff()}點[gold]敏捷[/gold]。",
+  "WRAITH_FORM.description": "獲得{IntangiblePower:diff()}層[gold]無實體[/gold]。\n在你的回合開始時，失去{WraithFormPower:diff()}點[gold]敏捷[/gold]。",
   "WRAITH_FORM.title": "幽魂形態",
   "WRITHE.title": "苦惱",
   "WROUGHT_IN_WAR.description": "造成{Damage:diff()}點傷害。\n[gold]鑄造[/gold]{Forge:diff()}。",

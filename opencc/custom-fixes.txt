@@ -3,4 +3,5 @@
 这张牌在本回合这张牌在本回合耗能变为	這張牌在本回合耗能變為
 则此牌就所有敌人	則此牌就對所有敵人
 中移除[gold]移除[/gold]	中[gold]移除[/gold]
+{IntangiblePower:diff()}[gold]无实体[/gold]	{IntangiblePower:diff()}層[gold]無實體[/gold]
 额外[blue]1[/blue]张牌	額外抽[blue]1[/blue]張牌
