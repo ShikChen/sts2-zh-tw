@@ -201,6 +201,12 @@ async function convert() {
       );
     }
 
+    // Hardcode CJK quote marks (hasCJK check reverts these since they're punctuation-only)
+    if (file === "game_over_screen.json") {
+      converted["ENCOUNTER_QUOTE_LEFT"] = "「";
+      converted["ENCOUNTER_QUOTE_RIGHT"] = "」";
+    }
+
     await Bun.write(outPath, JSON.stringify(converted, null, 2) + "\n");
 
     console.log(`  ${file}`);
