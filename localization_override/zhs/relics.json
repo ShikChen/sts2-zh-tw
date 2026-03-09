@@ -769,7 +769,7 @@
   "SIGNET_RING.description": "拾起時，獲得[blue]{Gold}[/blue][gold]金幣[/gold]。",
   "SIGNET_RING.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "SIGNET_RING.title": "圖章戒指",
-  "SILVER_CRUCIBLE.description": "你遇到的前[blue]{Cards}[/blue]組卡牌獎勵將是被[gold]升級[/gold]過的。你開啟的第一個寶箱將是[red]空的[/red]",
+  "SILVER_CRUCIBLE.description": "你遇到的前[blue]{Cards}[/blue]組卡牌獎勵將是被[gold]升級[/gold]過的。你開啟的第一個寶箱將是[red]空的[/red]。",
   "SILVER_CRUCIBLE.flavor": "[red]這個遺物的細節將在未來揭曉……[/red]",
   "SILVER_CRUCIBLE.title": "白銀熔爐",
   "SLING_OF_COURAGE.description": "在與[gold]精英[/gold]敵人戰鬥時，獲得[blue]{StrengthPower}[/blue]點[gold]力量[/gold]。",

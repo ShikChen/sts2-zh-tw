@@ -160,7 +160,7 @@
   "TOAST_WINDOW_RESIZING_ON": "已允許調整視窗大小。",
   "TUTORIAL_RESET": "重置教學",
   "TUTORIAL_RESET_BUTTON_LABEL": "重置",
-  "TUTORIAL_RESET_POPUP_DESCRIPTION": "這將會重置所有的教學和彈窗提示。\n\n如果你有段時間沒玩了，這個功能會很有幫助。",
+  "TUTORIAL_RESET_POPUP_DESCRIPTION": "這將會重置所有的教學和彈出式提示。\n\n如果你有段時間沒玩了，這個功能會很有幫助。",
   "TUTORIAL_RESET_POPUP_HEADER": "要重置教學嗎？",
   "UPLOAD_GAMEPLAY_DATA": "上傳遊戲資料",
   "UPLOAD_GAMEPLAY_DATA_DESCRIPTION": "一些遊玩資料和錯誤報告會被發送給製作組，用以修復bug和作為平衡的依據。\n\n任何個人資訊都不會被收集。",

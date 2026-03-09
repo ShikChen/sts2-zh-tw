@@ -196,7 +196,7 @@ async function convert() {
       }
       // Fix ASCII commas used in CJK context (upstream typo)
       converted[key] = converted[key].replace(
-        /(?<=\p{Script=Han}),([ \n])|,([ \n])(?=\p{Script=Han})/gu,
+        /(?<=\p{Script=Han}),([ \n])?|,([ \n])?(?=\p{Script=Han})/gu,
         (_, s1, s2) => ((s1 ?? s2) === "\n" ? "，\n" : "，"),
       );
     }

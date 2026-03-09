@@ -636,7 +636,7 @@
   "SOAR_POWER.description": "在落地之前受到的傷害減少[gold]50%[/gold]。",
   "SOAR_POWER.smartDescription": "在落地之前受到的傷害減少[blue]{DamageDecrease}%[/blue]。",
   "SOAR_POWER.title": "翱翔",
-  "SOUL_WITHER.description": "在靈魂樞紐對你造成未被格擋的傷害9次之後，對你造成999傷害。",
+  "SOUL_WITHER.description": "在靈魂樞紐對你造成未被格擋的傷害9次之後，對你造成999點傷害。",
   "SOUL_WITHER.smartDescription": "在靈魂樞紐對你造成未被格擋的傷害[blue]{Amount}[/blue]次之後，對你造成[blue]{Damage}[/blue]點傷害。",
   "SOUL_WITHER.title": "靈魂枯萎",
   "SOW_POWER.description": "在本回合[gold]保留[/gold]你[gold]手牌[/gold]中的[blue]1[/blue]張隨機牌。",
