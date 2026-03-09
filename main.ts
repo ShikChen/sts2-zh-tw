@@ -228,7 +228,8 @@ async function convert() {
       // Fix ASCII commas used in CJK context (upstream typo)
       converted[key] = converted[key].replace(
         /(?<=\p{Script=Han}),([ \n])?|,([ \n])?(?=\p{Script=Han})/gu,
-        (_, s1, s2) => ((s1 ?? s2) === "\n" ? "，\n" : "，"),
+        (_: string, s1?: string, s2?: string) =>
+          (s1 ?? s2) === "\n" ? "，\n" : "，",
       );
     }
 
@@ -252,7 +253,9 @@ async function convert() {
     }
 
     const sorted = Object.fromEntries(
-      Object.entries(converted).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)),
+      Object.entries(converted).sort(([a], [b]) =>
+        a < b ? -1 : a > b ? 1 : 0,
+      ),
     );
     await Bun.write(outPath, JSON.stringify(sorted, null, 2) + "\n");
   }
