@@ -124,7 +124,7 @@
   "NETWORK_ERROR.HOST_ABANDONED.body": "房主放棄了遊戲。",
   "NETWORK_ERROR.INTERNAL_ERROR.body": "發生了一個內部錯誤。\n\n請詳見：{info}",
   "NETWORK_ERROR.INVALID_JOIN.body": "該房間已不存在。",
-  "NETWORK_ERROR.JOIN_BLOCKED_BY_USER.body": "您已被該大廳中的成員封禁或拉黑。",
+  "NETWORK_ERROR.JOIN_BLOCKED_BY_USER.body": "您已被該大廳中的成員停權或封鎖。",
   "NETWORK_ERROR.KICKED.body": "你已被踢出這局遊戲。",
   "NETWORK_ERROR.LOBBY_FULL.body": "大廳已滿",
   "NETWORK_ERROR.MOD_MISMATCH.body": "模組不匹配！\n\n{info}",

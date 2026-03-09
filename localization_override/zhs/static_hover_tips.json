@@ -82,7 +82,7 @@
   "ROOM_UNKNOWN_MERCHANT.title": "未知 - 商人",
   "ROOM_UNKNOWN_TREASURE.description": "之前未知的房間，裡面有眾人覬覦的財寶。",
   "ROOM_UNKNOWN_TREASURE.title": "未知 - 財寶",
-  "SETTINGS.description": "開啟遊戲選單。\n\n可以在這裡調整或更新你的影片、聲音、和遊玩方面的偏好。",
+  "SETTINGS.description": "開啟遊戲選單。\n\n可以在這裡調整或更新你的影像、聲音、和遊玩方面的偏好。",
   "SETTINGS.title": "設定（ESC）",
   "STAR_COUNT.description": "你當前的輝星（{singleStarIcon}）數。儲君的部分卡牌可能會需要{singleStarIcon}才能打出。",
   "STAR_COUNT.title": "輝星",
