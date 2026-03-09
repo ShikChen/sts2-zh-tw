@@ -188,7 +188,7 @@ async function convert() {
       // - Non-CJK values (pure English text)
       // - Credit name lists (contain English nicknames with curly quotes)
       if (
-        !hasCJK.test(src[key]) ||
+        (!hasCJK.test(src[key]) && !hasCJK.test(converted[key])) ||
         (file === "credits.json" && key.endsWith(".names"))
       ) {
         converted[key] = src[key];
