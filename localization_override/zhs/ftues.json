@@ -16,7 +16,7 @@
   "MAP_SELECT_TITLE": "提示：選擇要前往的房間",
   "MERCHANT_FTUE_DESCRIPTION": "在前往下一個房間前，請記得和[blue]商人[/blue]互動。\n\n「你好啊！在這兒花掉你的[gold]金幣[/gold]吧！！」",
   "MERCHANT_FTUE_TITLE": "提示：不要忘了找商人談談！",
-  "POTION_FTUE_DESCRIPTION": "你可以在戰鬥中飲用或扔出藥水！\n藥水在一局遊戲中會跨戰鬥留存。",
+  "POTION_FTUE_DESCRIPTION": "你可以在戰鬥中飲用或投擲藥水！\n藥水在一局遊戲中會跨戰鬥留存。",
   "POTION_FTUE_TITLE": "提示：藥水",
   "POWER_FTUE_DESCRIPTION": "能力牌在使用時會對你施加一個增益。增益效果會在一場戰鬥內持續起效。",
   "POWER_FTUE_TITLE": "提示：能力牌",
