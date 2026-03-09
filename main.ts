@@ -177,20 +177,36 @@ async function convert() {
     const src = JSON.parse(await Bun.file(srcPath).text());
     // Re-serialize to normalize unicode escapes (e.g. \u201c → actual chars)
     // so OpenCC can match them against our custom dictionary
-    const normalized = Buffer.from(JSON.stringify(src, null, 2));
+    let normalizedStr = JSON.stringify(src, null, 2);
+    // Protect curly quotes in credits.json from being converted to CJK brackets
+    // (they wrap English nicknames, e.g. Tony "kiooeht" Moore)
+    if (file === "credits.json") {
+      normalizedStr = normalizedStr
+        .replaceAll("\u201c", "__LQUO__")
+        .replaceAll("\u201d", "__RQUO__")
+        .replaceAll("\u2018", "__LSQUO__")
+        .replaceAll("\u2019", "__RSQUO__");
+    }
+    const normalized = Buffer.from(normalizedStr);
     const converted = JSON.parse(
       await $`opencc -c ${OPENCC_CONFIG} < ${normalized}`.text(),
     );
 
+    if (file === "credits.json") {
+      for (const key of Object.keys(converted)) {
+        if (typeof converted[key] !== "string") continue;
+        converted[key] = converted[key]
+          .replaceAll("__LQUO__", "\u201c")
+          .replaceAll("__RQUO__", "\u201d")
+          .replaceAll("__LSQUO__", "\u2018")
+          .replaceAll("__RSQUO__", "\u2019");
+      }
+    }
+
     for (const key of Object.keys(converted)) {
       if (typeof src[key] !== "string") continue;
-      // Restore values that should not be converted:
-      // - Non-CJK values (pure English text)
-      // - Credit name lists (contain English nicknames with curly quotes)
-      if (
-        (!hasCJK.test(src[key]) && !hasCJK.test(converted[key])) ||
-        (file === "credits.json" && key.endsWith(".names"))
-      ) {
+      // Restore non-CJK values (pure English text)
+      if (!hasCJK.test(src[key]) && !hasCJK.test(converted[key])) {
         converted[key] = src[key];
         continue;
       }
