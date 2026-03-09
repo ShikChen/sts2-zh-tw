@@ -628,7 +628,7 @@
   "LETHALITY.description": "每回合的第一張攻擊牌會造成{LethalityPower:diff()}%額外傷害。",
   "LETHALITY.title": "致死性",
   "LIFT.description": "給另一名玩家{Block:diff()}點[gold]格擋[/gold]。",
-  "LIFT.title": "託舉",
+  "LIFT.title": "托舉",
   "LIGHTNING_ROD.description": "獲得{Block:diff()}點[gold]格擋[/gold]。\n在下{LightningRodPower:diff()}個回合開始時,[gold]生成[/gold]1個[gold]閃電[/gold]充能球。",
   "LIGHTNING_ROD.title": "引雷針",
   "LOOP.description": "在你的回合開始時，觸發你最右側的一個充能球的被動能力{IfUpgraded:show:2次}。",
