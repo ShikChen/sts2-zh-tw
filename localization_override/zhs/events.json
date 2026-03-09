@@ -491,7 +491,7 @@
   "SUNKEN_STATUE.pages.DIVE_INTO_WATER.description": "你一個猛子扎進了水中！\n\n在蒐集[gold]祈願金幣[/gold]的時候，你聽到上方傳來[sine][blue]沉悶的回聲[/blue][/sine]，然後你被一些石頭給砸到了！\n\n當你浮出水面時，才看見那尊古老的雕像已經因為你的所作所為而崩壞了──看來你不只是在[red]物理[/red]上、也是在[purple]靈性[/purple]上侵擾了這裡。",
   "SUNKEN_STATUE.pages.GRAB_SWORD.description": "你[jitter]用力[/jitter]從雕像的手中取下了[blue]石劍[/blue]，結果雕像整個崩壞了！\n\n現在再潛水去找池底的那些[gold][jitter]閃亮的東西[/jitter][/gold]就有點太危險了……\n\n你看了看[blue]劍[/blue]，感受到其中有著極為強大的[green]沉睡著的力量[/green]。",
   "SUNKEN_STATUE.pages.INITIAL.description": "你看見一尊古老的雕像，一半沉沒在池塘的水中。雕像的手放在一把[blue]石劍[/blue]之上。\n\n同時你還看見，池塘的水底似乎有一些東西在[gold][sine]閃爍[/sine][/gold]著光芒。\n或許是人們祈願投下的金幣？\n\n錢可是個好東西……",
-  "SUNKEN_STATUE.pages.INITIAL.options.DIVE_INTO_WATER.description": "獲得[blue]{Gold}[/blue][gold]金幣[/gold]。失去[red]{HpLoss}[/red]點生命.",
+  "SUNKEN_STATUE.pages.INITIAL.options.DIVE_INTO_WATER.description": "獲得[blue]{Gold}[/blue][gold]金幣[/gold]。失去[red]{HpLoss}[/red]點生命。",
   "SUNKEN_STATUE.pages.INITIAL.options.DIVE_INTO_WATER.title": "潛水",
   "SUNKEN_STATUE.pages.INITIAL.options.GRAB_SWORD.description": "獲得[gold]{Relic}[/gold]。",
   "SUNKEN_STATUE.pages.INITIAL.options.GRAB_SWORD.title": "拿起石劍",

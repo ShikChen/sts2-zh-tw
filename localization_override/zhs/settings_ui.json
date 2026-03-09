@@ -12,7 +12,7 @@
   "BACKGROUND_MUTE": "在背景時靜音",
   "BRIGHTNESS": "亮度",
   "CHARACTER_VOLUME": "語音音量",
-  "COMMON_TOOLTIPS": "通用小提示[red](尚未完成)[/red]",
+  "COMMON_TOOLTIPS": "通用小提示[red]（尚未完成）[/red]",
   "COMMON_TOOLTIPS_DESCRIPTION": "停用多種通用小提示，如：格擋、力量、易傷、虛弱、敏捷、消耗及能量等。",
   "COMMON_TOOLTIPS_HEADER": "通用小提示",
   "CREDITS": "查看製作名單",
